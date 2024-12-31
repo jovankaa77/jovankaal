@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .navbar-toggler {
+            position: absolute;
+            right: 0;
+        }
+
+            /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafb;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #222;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    /* Card Styles */
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+      height: 150px; /* Ensure content area has consistent height */
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .card-description {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      padding: 5px 10px;
+      font-size: 0.75rem;
+      color: #fff;
+      background-color: #3498db;
+      border-radius: 20px;
+    }
+    .tag.green {
+      background-color: #27ae60;
+    }
+    .tag.teal {
+      background-color: #1abc9c;
+    }
+    .tag.indigo {
+      background-color: #8e44ad;
+    }
+    </style>
+</head>
+<body>
+<!-- Header untuk "Jovanka" -->
+<div class="container-header">
+    <div class="name-jovan">
+        <h2>Jovanka</h2>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid d-flex justify-content-between position-relative">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="d-flex justify-content-center flex-grow-1">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-center">
+            <a class="nav-link active" aria-current="page" href="index.html">About</a>
+            <a class="nav-link" href="penghargaan.html">Achievement</a>
+            <a class="nav-link" href="project.html">Project</a>
+            <a class="nav-link" href="blog.html">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+</div>
+
+ <div class="container">
+    <h1>My Projects</h1>
+    <div class="grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="img/jopstore.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Jopstore</div>
+          <div class="card-description">Implementatio e-commerce App</div>
+          <div class="tags">
+            <div class="tag">Laravel</div>
+            <div class="tag green">Javascript</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="img/travelify.png" alt="Bootwind UI Library">
+        <div class="card-content">
+          <div class="card-title">Travelify</div>
+          <div class="card-description">Web App tour guide profesional destination</div>
+          <div class="tags">
+            <div class="tag">Javascript</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="img/lexia.png" alt="ChatLLM">
+        <div class="card-content">
+          <div class="card-title">Lexia-smm</div>
+          <div class="card-description">A web application (PWA) Social Media Marketing</div>
+          <div class="tags">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/kakulator.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Caculator App</div>
+          <div class="card-description">Implementation Caculator dinamis App</div>
+          <div class="tags">
+            <div class="tag green">Javascript</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/blue.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Blue-Innovation App</div>
+          <div class="card-description">Implementation Blue-Innovation App</div>
+          <div class="tags">
+            <div class="tag">Laravel</div>
+            <div class="tag green">Javascript</div>
+            <div class="tag green">Mysqli</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/snake.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Snake Game</div>
+          <div class="card-description">Implementation Snake App with GSAP</div>
+          <div class="tags">
+            <div class="tag green">Javascript</div>
+            <div class="tag green">GSAP</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/transport.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Transport-shop App</div>
+          <div class="card-description">Implementation transport shop e-commerce App</div>
+          <div class="tags">
+            <div class="tag">Laravel</div>
+            <div class="tag green">Javascript</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/shopio.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Shopio</div>
+          <div class="card-description">Implementatin e-commerce App</div>
+          <div class="tags">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/trulli.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Trulli</div>
+          <div class="card-description">Implementation Board List App</div>
+          <div class="tags">
+            <div class="tag">Laravel</div>
+            <div class="tag green">Javascript</div>
+            <div class="tag green">Bootstrap</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/fruitopia.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Fruitopia</div>
+          <div class="card-description">Implementation clean design</div>
+          <div class="tags">
+            <div class="tag green">Vanilla Javascript</div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="card">
+        <img src="img/kksi1.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Smart Prakerin</div>
+          <div class="card-description">Implementation Prakerin app ( Praktek kerja industri )</div>
+          <div class="tags">
+            <div class="tag">Laravel</div>
+            <div class="tag green">Javascript</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/karawang1.png" alt="Ipush">
+        <div class="card-content">
+          <div class="card-title">Khas karawang</div>
+          <div class="card-description">Implementation Culture at karawang </div>
+          <div class="tags">
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+<script src="bs/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
