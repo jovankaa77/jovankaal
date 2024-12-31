@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        .navbar-toggler {
+            position: absolute;
+            right: 0;
+        }
+
+          body {
+            /* font-family: 'Poppins', Arial, sans-serif; */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h1 {
+            font-size: 2em;
+            font-weight: 700; /* Bold untuk judul */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .achievement {
+            margin-bottom: 30px;
+        }
+        .achievement-title {
+            font-size: 1.2em;
+            font-weight: 600; /* Semi-bold */
+            display: flex;
+            align-items: center;
+        }
+        .achievement-title img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+            font-weight: 400; /* Normal weight */
+        }
+    </style>
+</head>
+<body>
+<!-- Header untuk "Jovanka" -->
+<div class="container-header">
+    <div class="name-jovan">
+        <h2>Jovanka</h2>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid d-flex justify-content-between position-relative">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="d-flex justify-content-center flex-grow-1">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav text-center">
+            <a class="nav-link active" aria-current="page" href="index.php">About</a>
+            <a class="nav-link" href="penghargaan.php">Achievement</a>
+            <a class="nav-link" href="project.php">Project</a>
+            <a class="nav-link" href="blog.php">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+</div>
+
+<div class="container">
+        <h1>My Achievements</h1>
+        
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/silver.png" alt="Trophy Icon">
+                2nd Place at The Education University software engineering creation Vol.3 2023 
+            </div>
+        </div>
+
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/participant.png" alt="Trophy Icon">
+                participants at  GEMASTIK XVI User Experience Design - LAWZILLA APP 2023
+            </div>
+        </div>
+
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/gold.png" alt="Trophy Icon">
+                1st Place at Webtech Web Technologies 
+            </div>
+        </div>
+
+
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/participant.png" alt="Trophy Icon">
+                Finalist participants at KKSI Smart school kemendikbud 2021
+            </div>
+        </div>
+
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/bronze.png" alt="Trophy Icon">
+                3rd Place at LKS West Java Province 2021 Web Technologies
+            </div>
+        </div>
+
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/participant.png" alt="Trophy Icon">
+                Awardee Beasiswa Karawang Cerdas 2022-2024
+            </div>
+        </div>
+
+        <div class="achievement">
+            <div class="achievement-title">
+                <img src="img/gold.png" alt="Trophy Icon">
+                1st Place at LKS Karawang Regency 2021 Web Technologies
+            </div>
+        </div>
+
+
+        
+
+        
+    </div>
+<script src="bs/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
